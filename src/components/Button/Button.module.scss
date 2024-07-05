@@ -1,6 +1,5 @@
 .button {
   width: 532px;
-  height: 56px;
   margin-top: 100px;
   padding: 14px 0;
   font-family: var(--font-family);
@@ -19,6 +18,14 @@
 
 @media screen and (max-width: 680px) {
   .button {
+    margin-top: 50px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button {
+    margin-top: 28px;
+    font-size: 20px;
   }
 }

@@ -17,7 +17,6 @@
   color: var(--white-40);
   border-radius: 12px;
   border: 0;
-  backdrop-filter: blur(28px);
   background: var(--dark-grey-34);
 }
 
@@ -39,4 +38,39 @@
 .name {
   font-size: 20px;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 680px) {
+  .buttons {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .buttons {
+    margin-top: 16px;
+    gap: 16px;
+  }
+
+  .storeButton {
+    gap: 3px;
+    padding: 4px 8px;
+    width: 100px;
+    height: 34px;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .text {
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
 }
