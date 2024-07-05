@@ -2,7 +2,7 @@
 
 [Макет](<https://www.figma.com/design/HV0s9rd8ORcoulJkw23kws/Front-test-(Copy)?node-id=0-1&t=KDEsh4t16Ybw2uzC-1>)
 
-[Рабочая версия приложеная на gh-pages]()
+[Рабочая версия приложеная на gh-pages](https://evgenytomson.github.io/crypto/)
 
 ## Ипользованные инструменты:
 
