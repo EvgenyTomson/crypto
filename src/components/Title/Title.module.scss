@@ -1,0 +1,40 @@
+.title {
+  max-width: 1008px;
+  text-align: left;
+  font-size: 84px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--white-100);
+  text-transform: uppercase;
+
+  &_gradiented {
+    background: var(--main-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .title {
+    font-size: 74px;
+  }
+}
+
+// @media screen and (max-width: 680px) {
+//   .title {
+//     font-size: 56px;
+//   }
+// }
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 40px;
+  }
+}

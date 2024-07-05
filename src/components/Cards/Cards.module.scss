@@ -1,0 +1,16 @@
+.cards {
+  position: absolute;
+  top: 172px;
+  right: 82px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1360px) {
+  .cards {
+    display: none;
+  }
+}

@@ -1,0 +1,53 @@
+.achievements {
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+  gap: 126px;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.score {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--white-30);
+}
+
+@media screen and (max-width: 680px) {
+  .achievements {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .score {
+    font-size: 36px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .score {
+    font-size: 28px;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}
